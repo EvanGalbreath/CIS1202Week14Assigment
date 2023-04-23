@@ -37,6 +37,7 @@ void Vehicle::setYearBuilt(int tempYear)
     
 void Vehicle::displayInfo() const
 {
+    cout << "Vehicle Information: " << endl;
     cout << "Manufacturer: " << manufacturer << endl;
     cout << "Year built: " << yearBuilt << endl;
 }
