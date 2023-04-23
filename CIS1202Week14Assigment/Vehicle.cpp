@@ -9,6 +9,12 @@ Vehicle::Vehicle()
     yearBuilt = 0;
 }
 
+Vehicle::Vehicle(const string& tempManufacturer, int tempYearBuilt)
+{
+    manufacturer = tempManufacturer;
+    yearBuilt = tempYearBuilt;
+}
+
 const string& Vehicle::getManufacturer() const
 {
     return manufacturer;

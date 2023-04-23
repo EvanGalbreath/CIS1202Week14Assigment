@@ -7,6 +7,11 @@ Car::Car()
     numDoors = 0;
 }
 
+Car::Car(const string& tempManufacturer, int tempYearBuilt, int tempNumDoors) : Vehicle(tempManufacturer, tempYearBuilt)
+{
+    numDoors = tempNumDoors;
+}
+
 int Car::getNumDoors() const
 {
     return numDoors;

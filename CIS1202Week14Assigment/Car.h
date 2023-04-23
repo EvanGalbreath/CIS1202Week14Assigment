@@ -12,6 +12,7 @@ private:
 
 public:
     Car();
+    Car(const string& tempManufacturer, int tempYearBuilt, int tempNumDoors);
     int getNumDoors() const;
     void setNumDoors(int tempNumDoors);
     void displayInfo() const;

@@ -7,6 +7,11 @@ Truck::Truck()
     towingCapacity = 0;
 }
 
+Truck::Truck(const string& tempManufacturer, int tempYearBuilt, int tempTowingCapacity) : Vehicle(tempManufacturer, tempYearBuilt)
+{
+    towingCapacity = tempTowingCapacity;
+}
+
 int Truck::getTowingCapacity() const
 {
     return towingCapacity;

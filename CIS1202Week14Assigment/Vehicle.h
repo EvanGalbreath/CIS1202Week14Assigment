@@ -12,6 +12,7 @@ private:
 
 public:
     Vehicle();
+    Vehicle(const string& tempManufacturer, int tempyearBuilt);
     const string& getManufacturer() const;
     int getYearBuilt() const;
     void setManufacturer(const string& tempManufacturer);

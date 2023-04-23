@@ -12,6 +12,7 @@ private:
 
 public:
 	Truck();
+	Truck(const string& tempManufacturer, int tempYearBuilt, int tempTowingCapacity);
 	int getTowingCapacity() const;
 	void setTowingCapacity(int tempTowingCapacity);
 	void displayInfo() const;
